@@ -1,6 +1,6 @@
 $(document).ready(function () {
     $('.container').mouseenter(function () {
-        $('.card').stop().delay(200).animate({ // Tambahkan delay 1 detik (1000ms)
+        $('.card').stop().delay(0).animate({ // Tambahkan delay 1 detik (1000ms)
             top: '-120px'
         }, 'slow');
     }).mouseleave(function () {
